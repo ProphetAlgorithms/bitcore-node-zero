@@ -15,13 +15,7 @@ Note: For your convenience, we distribute bitcoind binaries for x86_64 Linux and
 ## Install bitcore-node-zero with insight-api-zero and insight-ui-zero (tested with nodejs v8.17.0 lts)
 
 ```bash
-cd $HOME
-mkdir bitcore-node-zero
-cd bitcore-node-zero
-npm install ProphetAlgorithms/bitcore-node-zero
-./node_modules/bitcore-node-zero/bin/bitcore-node create mynode
-cd mynode
-./node_modules/bitcore-node-zero/bin/bitcore-node install ProphetAlgorithms/insight-api-zero ProphetAlgorithms/insight-ui-zero
+cd $HOME && mkdir bitcore-node-zero && cd bitcore-node-zero && npm install ProphetAlgorithms/bitcore-node-zero && ./node_modules/bitcore-node-zero/bin/bitcore-node create mynode && cd mynode && ./node_modules/bitcore-node-zero/bin/bitcore-node install ProphetAlgorithms/insight-api-zero ProphetAlgorithms/insight-ui-zero
 ```
 Now change the values of rpcuser and rpcpassword with values of your choice in the file bitcoind.js, located from the base path in: ./mynode/node_modules/bitcore-node-zero/lib/services/ .
 Copy the executables of the Zero daemon (you need the version of Zero daemon patched with the addition of rpc calls needed to bitcore-node-zero - https://github.com/ProphetAlgorithms/zero-1.0.14-1-bitcore) to the folder located from the base path in: ./node_modules/bitcore-node-zero/bin/ .
