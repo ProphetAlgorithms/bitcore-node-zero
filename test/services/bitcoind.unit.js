@@ -374,7 +374,7 @@ describe('Bitcoin Service', function() {
       bitcoind._loadSpawnConfiguration(node);
       should.exist(bitcoind.spawn.config);
       bitcoind.spawn.config.should.deep.equal({
-        addressindex: 1,
+        insightexplorer: 1,
         checkblocks: 144,
         dbcache: 8192,
         maxuploadtarget: 1024,
@@ -384,8 +384,7 @@ describe('Bitcoin Service', function() {
         rpcuser: 'bitcoin',
         rpcpassword: 'local321',
         server: 1,
-        spentindex: 1,
-        timestampindex: 1,
+        experimentalfeatures: 1,
         txindex: 1,
         upnp: 0,
         whitelist: '127.0.0.1',
@@ -484,8 +483,8 @@ describe('Bitcoin Service', function() {
       var bitcoind = new BitcoinService(baseConfig);
       var config = {
         txindex: 1,
-        addressindex: 1,
-        spentindex: 1,
+        insightexplorer: 1,
+        experimentalfeatures: 1,
         server: 1,
         zmqpubrawtx: 1,
         zmqpubhashblock: 1,
@@ -500,8 +499,8 @@ describe('Bitcoin Service', function() {
       var bitcoind = new BitcoinService(baseConfig);
       var config = {
         txindex: 1,
-        addressindex: 1,
-        spentindex: 1,
+        insightexplorer: 1,
+        experimentalfeatures: 1,
         server: 1,
         zmqpubrawtx: 'tcp://127.0.0.1:28332',
         zmqpubhashblock: 'tcp://127.0.0.1:28331',
