@@ -60,9 +60,8 @@ It will also be necessary to update `bitcoin.conf` settings, to include these fi
 server=1
 whitelist=127.0.0.1
 txindex=1
-addressindex=1
-timestampindex=1
-spentindex=1
+insightexplorer=1
+experimentalfeatures=1
 zmqpubrawtx=tcp://127.0.0.1:<port>
 zmqpubhashblock=tcp://127.0.0.1:<port>
 rpcallowip=127.0.0.1
