@@ -46,7 +46,7 @@
   ],
   "dependencies": {
     "async": "^1.3.0",
-    "bitcoind-rpc": "ProphetAlgorithms/bitcoind-rpc#saplingroot",
+    "bitcoind-rpc": "ProphetAlgorithms/bitcoind-rpc#stats",
     "bitcore-lib-zero": "ProphetAlgorithms/bitcore-lib-zero#saplingroot",
     "body-parser": "^1.13.3",
     "colors": "^1.1.2",
