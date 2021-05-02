@@ -12,12 +12,12 @@ npm install ProphetAlgorithms/bitcore-node-zero
 
 Note: For your convenience, we distribute bitcoind binaries for x86_64 Linux and x86_64 Mac OS X. Upon npm install, the binaries for your platform will be downloaded. For more detailed installation instructions, or if you want to compile the project yourself, then please see the Bitcore branch of [Bitcoin Core with additional indexing](https://github.com/bitpay/bitcoin/tree/0.12.1-bitcore).
 
-## Install bitcore-node-zero with insight-api-zero and insight-ui-zero (tested with nodejs v8 lts)
+## Install bitcore-node-zero with insight-api-zero and insight-ui-zero (tested with nodejs v8.17.0 lts)
 
 ```bash
 cd $HOME
 mkdir bitcore-node-zero
-cd bitcore-node-nero
+cd bitcore-node-zero
 npm install ProphetAlgorithms/bitcore-node-zero
 ./node_modules/bitcore-node-zero/bin/bitcore-node create mynode
 cd mynode
