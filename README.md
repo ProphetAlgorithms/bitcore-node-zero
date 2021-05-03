@@ -23,7 +23,7 @@ Now change the values of "rpcuser" and "rpcpassword" with values of your choice 
 vi $HOME/bitcore-node-zero/mynode/node_modules/bitcore-node-zero/lib/services/bitcoind.js
 ```
 
-Copy the executables of the Zero daemon (you need the version of Zero daemon patched with the addition of rpc calls needed to bitcore-node-zero - https://github.com/ProphetAlgorithms/zero-1.0.14-1-bitcore) to the folder located in: $HOME/.bitcore/bin/ and run the command:
+Copy the executables of the Zero daemon ( build https://github.com/ProphetAlgorithms/Zero ) to the folder located in: $HOME/.bitcore/bin/ and run the command:
 
 ```bash
 $HOME/bitcore-node-zero/mynode/node_modules/bitcore-node-zero/bin/bitcore-node start
