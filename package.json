@@ -60,7 +60,7 @@
     "path-is-absolute": "^1.0.0",
     "semver": "^5.0.1",
     "socket.io": "^2.4.1",
-    "socket.io-client": "^2.4.1",
+    "socket.io-client": "^2.4.0",
     "zmq": "^2.14.0"
   },
   "optionalDependencies": {
